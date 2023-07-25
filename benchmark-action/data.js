@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1690261861390,
+  "lastUpdate": 1690264432347,
   "repoUrl": "https://github.com/jamrok/rust-practical-networked-applications",
   "entries": {
     "Rust Key/Value Storage Engine Benchmarks": [
@@ -143,6 +143,54 @@ window.BENCHMARK_DATA = {
             "name": "engines/write/sled",
             "value": 1588170,
             "range": "± 40208",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "3874968+jamrok@users.noreply.github.com",
+            "name": "jamrok",
+            "username": "jamrok"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7a996318363493c377c34f978f688cb18770f581",
+          "message": "Project 4: Completed (#7)",
+          "timestamp": "2023-07-25T00:02:07-05:00",
+          "tree_id": "f036b43813ef3d640c4f7e580716dbb3707b6fbc",
+          "url": "https://github.com/jamrok/rust-practical-networked-applications/commit/7a996318363493c377c34f978f688cb18770f581"
+        },
+        "date": 1690264430204,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "engines/read/kvs",
+            "value": 6785632,
+            "range": "± 133797",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "engines/read/sled",
+            "value": 1723226,
+            "range": "± 41056",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "engines/write/kvs",
+            "value": 38464093,
+            "range": "± 27163792",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "engines/write/sled",
+            "value": 1532321,
+            "range": "± 46079",
             "unit": "ns/iter"
           }
         ]
